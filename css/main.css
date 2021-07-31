@@ -565,7 +565,7 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-  display: block;
+  /* display: block; */
   height: 6rem;
   padding: 1.5rem 0;
   border: 0;
@@ -1207,17 +1207,17 @@ header .logo {
   position: relative;
 }
 header .logo a {
-  display: block;
+  display: flex;
   margin: 0;
   padding: 0;
   border: none;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
-  width: 92px;
-  height: 15px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 92px 15px;
+  /*  width: 92px;
+  height: 30px;
+  background: text ("Ingredi;") no-repeat center;
+  background-size: 100px 40px; */
 }
 
 /**
@@ -1235,7 +1235,7 @@ header .logo a {
 }
 .menu-toggle span {
   display: block;
-  background-color: #ff0077;
+  background-color: #ffffff;
   width: 24px;
   height: 3px;
   margin-top: -1.5px;
@@ -1467,7 +1467,7 @@ header .logo a {
   content: "|";
   text-align: center;
   display: inline-block;
-  padding: 0 14px 0 8px;
+  padding: 0 10px 0 8px;
   color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .button {
@@ -1508,8 +1508,8 @@ header .logo a {
 }
 .intro-social li {
   display: inline-block;
-  margin: 0 20px;
-  padding: 0;
+  margin: 0 10px;
+  padding-top: 10;
 }
 .intro-social li a,
 .intro-social li a:visited {
@@ -1517,7 +1517,7 @@ header .logo a {
 }
 .intro-social li a:hover,
 .intro-social li a:focus {
-  color: #cc005f;
+  color: #720035;
 }
 
 /**
@@ -1592,28 +1592,27 @@ header .logo a {
  */
 #about {
   background: #ffffff;
-  padding-top: 12rem;
-  padding-bottom: 15rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 #about .section-intro {
   margin-bottom: 3rem;
-}
+} /*
 
 .intro-info {
   margin-top: 4.2rem;
   margin-right: -30px;
   margin-left: -30px;
-}
+} */
 .intro-info img {
-  height: 9rem;
-  width: 9rem;
-  border-radius: 50%;
+  width: 200px;
+
   margin: 0.9rem 0 0 0;
-  float: left;
+  float: inline-start;
 }
 .intro-info .lead {
-  text-align: left;
-  padding-left: 13rem;
+  text-align: center;
+  /*  padding-left: 13rem; */
 }
 
 .about-content {
@@ -1894,7 +1893,7 @@ header .logo a {
  */
 #portfolio {
   background: #ffffff;
-  padding-top: 12rem;
+  padding-top: 4rem;
   padding-bottom: 12rem;
 }
 #portfolio .folio-item {
